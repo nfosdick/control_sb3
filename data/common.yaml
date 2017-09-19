@@ -1,0 +1,8 @@
+---
+profile::mysql::config:
+  trinity:
+    user: 'myuser'
+    password: 'mypass'
+    host: 'localhost'
+    grant:  "['SELECT', 'UPDATE']"
+
