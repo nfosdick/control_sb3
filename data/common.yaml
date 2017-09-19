@@ -1,31 +1,31 @@
 ---
 profiles::mysql::config:
   trinity:
-    user: 'myuser'
+    user: 'myuser1'
     host: 'localhost'
     grant:
       - 'SELECT'
       - 'UPDATE'
   neo:
-    user: 'myuser'
+    user: 'myuser2'
     host: 'localhost'
     grant:
       - 'SELECT'
       - 'UPDATE'
   tank:
-    user: 'myuser'
+    user: 'myuser3'
     host: 'localhost'
     grant:
       - 'SELECT'
       - 'UPDATE'
   smith:
-    user: 'myuser'
+    user: 'myuser4'
     host: 'localhost'
     grant:
       - 'SELECT'
       - 'UPDATE'
   morpheus:
-    user: 'myuser'
+    user: 'myuser5'
     host: 'localhost'
     grant:
       - 'SELECT'
