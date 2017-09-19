@@ -1,3 +1,3 @@
 forge "https://forgeapi.puppetlabs.com"
 
-mod 'stdlib'
+mod 'puppetlabs/stdlib', '4.9.0'
