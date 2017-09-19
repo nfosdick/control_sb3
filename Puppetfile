@@ -16,3 +16,11 @@ mod 'git',
 mod 'hiera_wrapper',
     :git => 'git@github.com:nfosdick/hiera_wrapper.git',
     :ref => 'master'
+
+mod 'roles',
+    :git => 'git@github.com:nfosdick/roles.git',
+    :ref => 'master'
+
+mod 'profiles',
+    :git => 'git@github.com:nfosdick/profiles.git',
+    :ref => 'master'
