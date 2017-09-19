@@ -1,0 +1,12 @@
+---
+profiles::mysql::config:
+  trinity:
+    password: 'mypass'
+  neo:
+    password: 'mypass'
+  tank:
+    password: 'mypass'
+  smith:
+    password: 'mypass'
+  morpheus:
+    password: 'mypass'
