@@ -4,6 +4,7 @@ mod 'puppetlabs/stdlib'
 mod 'puppetlabs/concat'
 mod 'puppetlabs/apache'
 mod 'puppetlabs/mysql'
+mod 'puppetlabs/inifile'
 
 mod 'puppet-hiera', '3.2.0'
 mod 'puppetlabs-puppetserver_gem', '1.0.0'
