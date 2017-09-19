@@ -1,0 +1,17 @@
+# hiera.yaml Managed by Puppet
+version: 5
+defaults:
+  datadir: data
+  data_hash: yaml_data
+hierarchy:
+
+  - name: "Virtual yaml"
+    path: "virtual/%{::virtual}.yaml"
+
+  - name: "Nodes yaml"
+    paths:
+      - "nodes/%{::trusted.certname}.yaml"
+      - "nodes/%{::osfamily}.yaml"
+
+  - name: "Default yaml file"
+    path: "common.yaml"
