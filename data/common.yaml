@@ -4,4 +4,6 @@ profiles::mysql::config:
     user: 'myuser'
     password: 'mypass'
     host: 'localhost'
-    grant:  "['SELECT', 'UPDATE']"
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
