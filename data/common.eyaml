@@ -1,12 +1,57 @@
 ---
 profiles::mysql::config:
   trinity:
-    password: 'mypass'
+    password: >
+      ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+      DQYJKoZIhvcNAQEBBQAEggEAhLeh7BiJjm6FvjWx482Sq4ZYQOqSKf9JuGW4
+      CURU4g1C56Fzbv/xzZizeIfeYAMcDf3hlnWcM00R1V3S0T6ZfRChPFrQ6Tzy
+      oarOWreK61jUbNFZGd6UZVhZTDbGTmiQUpBIgCmerc2P0C7Sbd7QkEC7Mz1+
+      weaFotD8ul8CsWYiaps7hF9detFAqwQMwnLzEFJRIDIGsG7AlrzG9ku4kyW2
+      CZUGhW2X5QELJiEqlvNqCoLbFj/nkKlt8okMS2VNZsle5VtMqZnI5Wfk8kmN
+      H8DaFSbYR+2IkloAI0lxjFvochqieS7Ndyowu9km4JgHN8qzLJzbRdzERZTz
+      CvhMLzA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBCTnKL1Dq+/kChhMwxA
+      TTVJgBANUHqF+E37yDriBFMPc3Dd]
   neo:
-    password: 'mypass'
+    password: >
+      ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+      DQYJKoZIhvcNAQEBBQAEggEALC0Z1X4cuKsspVsmQrqqaX9wKaOWnefieOFu
+      zqEPpqjv8zIZlsigDNyHAc1XEb5lENtmb+GPHkad3xatwblVFU+JA8j9+6+U
+      UyFuLYKgFY1h38Xyqbc+99Z1vu622v5aNkCiNEPFMTCa1KTkpx5/9KLLy3b3
+      CShfz90cwfJUlbZonn0NKQTiC9iJu4ICJ/WlGFBspGmYAuts82iYvk+xFM4d
+      LZm/6QIInKEfweCfYYUaIRjkrv/f43HeCyG2mZGMSjBCUlguIUvI1M/+g0Gc
+      rhsMvCBgjMaQrVXGmqZsNGxA3N5UQhFB4f79JmVf2FbyVLYRMaRpBVHxQq7T
+      Q/XHrzA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBIbkUBabW5P/6Zmf6u
+      Eh6FgBAJw56Sju+ba1iJQ1OWsdWU]
   tank:
-    password: 'mypass'
+    password: >
+      ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+      DQYJKoZIhvcNAQEBBQAEggEAumuRSbryCDa/9STTuXEd7uQECHEbLrzJ/Qgf
+      EQaNWAec0JqRB7c2lHHssTC0cf0/9VOeHTp+m1vHLKYiU6pGiPlueLKwi0EL
+      X7d+hejvwGbuBlkoyqDM8LfAaaR4dtFGuWJzL4UVEQuyEhTUjSP8EfB8L4Y5
+      gxWjmB57DVauacUv0BQE0Q+f/lBR3r3un4QbexQ4XiSm2YaS1K7Y4++wZb5d
+      ZjLZIjQuuWXQKoeYkUL5stqFeU2ELkRv3Dhk32JGIhZ+dgf4Ndqr8sztfHhq
+      vEW1PZXsAoKRS30CVokZ2POR+s2TRwHS5SeCVkr9qKKKvqyC7vDgh9dt4UZE
+      URr6gTA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDMW9UpHohdzommJ5jF
+      TDjBgBBtHG9B6q9Y3QxcsLD2F1fX]
   smith:
-    password: 'mypass'
+    password: >
+      ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+      DQYJKoZIhvcNAQEBBQAEggEACoh4AqjAI4YbHgCmPV+2BNGCpwLDZpfTXrfD
+      gL0+9R2rmhRn+n9Jx6VBqOJmwenNJ6bDhNWFmcoXlL+khTQkIrDS0wcL4Mkn
+      ucNdxBpGmT0+bIzQznqBYFDP7/KIVqw6KkNnIxsOAhB2RVIgf/ujWcwnraIw
+      rv2vabGHkt1LN57VtbO9rhKc6JuJAicA5bQuhL2RWVnvKbkrx3frYdaVQe3z
+      CavJPesEmg8A6IMm0YmmFwpw4Y5Cg6MS4BmXT9TgrjRgPEMfkcbdcLYnd+Uu
+      66FS6eK3esyDUKw9yz5dh/KyuyIfASrEzT/gy+r6ZfonAx9YIAP5eNBN2sBV
+      0eoIdjA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBBbkOzo1OhMe+mSyBQi
+      8697gBD+uJb4M8dKi/6U9yNAL1r1]
   morpheus:
-    password: 'mypass'
+    password: >
+      ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEw
+      DQYJKoZIhvcNAQEBBQAEggEAdLu6xB+WZN0KV0eHVyyqztILJdwAw3Ko7Plf
+      nBHovRanaw4tbKHrv6cUeG5aoYKcZkZH5Si3PadX8nN8vvb+KzcCjLIG5hYb
+      AvVq/ZzWgF9lugMs9IxJzkIEmaL0KAOI1Z+viRJHMnkAzBAJjpxTnmLwhm1J
+      5brousPGlW9CiRv2RcSMgvarQYTLUamTGtEWCwBxXuOEFwqkohr4mVCMvRdp
+      ZUI6tci17XjeUCOfGFTJLKaRG5rgx+5XBwml00OSfj/f9pjG7tmBxioLkLxt
+      aAq4PEchjLv5N5pi6VHBHygAj168p4wN0j7b6dR/hcGIEAtYqkSwKNqmx4WV
+      pW0N1DA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBDLfP83T4QUOdaT46+R
+      aw6jgBBaGDPvUW9zUYpCkwedggMs]
