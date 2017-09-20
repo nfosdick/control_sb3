@@ -11,7 +11,7 @@ mod 'puppetlabs-puppetserver_gem', '1.0.0'
 
 mod 'git',
     :git => 'git@github.com:nfosdick/git.git',
-    :ref => 'master'
+    :ref => 'development'
 
 mod 'hiera_wrapper',
     :git => 'git@github.com:nfosdick/hiera_wrapper.git',
@@ -23,4 +23,4 @@ mod 'roles',
 
 mod 'profiles',
     :git => 'git@github.com:nfosdick/profiles.git',
-    :ref => 'master'
+    :ref => 'production'
