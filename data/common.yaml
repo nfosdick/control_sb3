@@ -1,0 +1,64 @@
+---
+profiles::mysql::config:
+  trinity:
+    user: 'myuser1'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  neo:
+    user: 'myuser2'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  tank:
+    user: 'myuser3'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  smith:
+    user: 'myuser4'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'UPDATE'
+  morpheus:
+    user: 'myuser5'
+    host: 'localhost'
+    grant:
+      - 'SELECT'
+      - 'DELETE'
+
+profiles::apache::config:
+    wolverine:
+      port: 80
+      docroot: /var/www/wolverine
+      options:
+        - Indexes
+        - FollowSymLinks
+    superman:
+      port: 81
+      docroot: /var/www/superman
+      options:
+        - Indexes
+        - FollowSymLinks
+    batman:
+      port: 82
+      docroot: /var/www/batman
+      options:
+        - Indexes
+        - FollowSymLinks
+    ironman:
+      port: 83
+      docroot: /var/www/ironman
+      options:
+        - Indexes
+        - FollowSymLinks
+    hulk:
+      port: 84
+      docroot: /var/www/hulk
+      options:
+        - Indexes
+        - FollowSymLinks
