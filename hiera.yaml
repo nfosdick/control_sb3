@@ -5,9 +5,6 @@ defaults:
   data_hash: yaml_data
 hierarchy:
 
-  - name: "Virtual yaml"
-    path: "virtual/%{::virtual}.yaml"
-
   - name: "Nodes yaml"
     paths:
       - "nodes/%{::trusted.certname}.yaml"
@@ -16,7 +13,7 @@ hierarchy:
   - name: "Passwords eyaml"
     lookup_key: eyaml_lookup_key
     paths:
-      - "nodes/%{::trusted.certname}.eyaml"
+      - "roles/%{::role}.eyaml"
       - "nodes/%{::osfamily}.eyaml"
       - "common.eyaml"
     options:
